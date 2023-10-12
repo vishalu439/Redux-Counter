@@ -1,0 +1,56 @@
+.container{
+    max-width:400px;
+    border:1px solid grey;
+    border-radius: 4px;
+    margin:60px auto auto auto;
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    
+}
+button{
+    padding:10px 20px;
+    border:none;
+    background-color:yellow;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color:black;
+    
+}
+button:hover{
+    color:teal;
+}
+h1{
+    text-align: center;
+    margin:30px auto;
+    text-transform:uppercase;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .counter {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .counter h4 {
+
+    margin: 0;
+    padding: 5px;
+  }
+  
